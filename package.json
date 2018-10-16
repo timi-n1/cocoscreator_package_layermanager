@@ -1,0 +1,23 @@
+{
+    "name": "layer-manager",
+    "version": "1.0.0",
+    "description": "层级管理",
+    "author": "Aguangtian",
+    "main": "main.js",
+    "main-menu": {
+        "Packages/通用/Layer层级管理": {
+            "message": "layer-manager:run"
+        }
+    },
+    "dependencies": {},
+    "devDependencies": {
+
+    },
+    "panel": {
+        "main": "panel/index.js",
+        "type": "dockable",
+        "title": "层级管理",
+        "width": 600,
+        "height": 800
+    }
+}
